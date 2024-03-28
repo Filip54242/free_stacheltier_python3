@@ -1,3 +1,7 @@
+## Update
+I Have updated this code to work on python3.
+Tested on a Igel D520c found in a Flea Market.
+
 # free_stacheltier
 This tool has been created to factory reset IGEL thin clients.
 Tested with firmware version 4 and 5.
@@ -10,14 +14,15 @@ That frustrated me especially because I did want to reset more than one device.
 
 ## Requirements
 * linux system
-* installed pycrypto package
-* python2.7
+* git
+* pycryptodome
+* python3
 
 ## How to install
 
-Install pycrypto and clone the git repo:
+Install pycryptodome and clone the git repo:
 ```
-~ # pip install pycrypto
+~ # pip install pycryptodome or apt install python-pycryptodome or pamac install python-pycryptodome 
 ~ # git clone https://github.com/thomasDOTwtf/free_stacheltier.git
 ```
 ## How to use
